@@ -105,7 +105,7 @@ EXEMPLE :
 
 **texte en gras**
 
-__texte en gras__
+__ texte en gras __
 
 pour mettre un texte en italique on utilise on utilise "*" ou "_"
 
