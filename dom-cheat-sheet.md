@@ -1,12 +1,12 @@
-// CREER UN ELEMENT
+# CREER UN ELEMENT
 
 let nouvelElement = document.createElement("div");
 
-// DONNER UN ID A UN ELEMENT
+# DONNER UN ID A UN ELEMENT
 
 nouvelElement.id = "monElement";
 
-// AJOUTER DU CONTENU A UN ELEMENT
+# AJOUTER DU CONTENU A UN ELEMENT
 
 nouvelElement.textContent = "Contenu de mon élément";
 
@@ -14,15 +14,15 @@ nouvelElement.textContent = "Contenu de mon élément";
 
 let parentElement = document.getElementById("container");
 
-// AJOUT DE L'ELEMENT AU PARENT
+# AJOUT DE L'ELEMENT AU PARENT
 
 parentElement.appendChild(nouvelElement);
 
-// SELECTION DE L'ELEMENT A STYLISER
+# SELECTION DE L'ELEMENT A STYLISER
 
 var element = document.getElementById("monElement");
 
-// STYLISER L'ELEMENT
+# STYLISER L'ELEMENT
 
 element.style.backgroundColor = "green";
 element.style.color = "white";

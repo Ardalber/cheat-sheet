@@ -1,12 +1,18 @@
 # on top
 
-[map](#map) | [filter](#filter) | [isArray](#isArray)
------------------------------------------------------------
-[math.min](#math.min) | [array.from](#array.from)|[array.join](#array.join)
-----------------------------------------------------------------------------------------------
-[array.slice](#array.slice) | [array.reverse](#array.reverse)[array.includes](#array.includes)
------------------------------------------------------------------------------------------------
-[array.concat](#array.concat)[array.reduce](#array.reduce)
+[map](#map) | [filter](#filter) | [isArray](#isArray) | 
+--------------------------------------------------------------------------------------------------
+[math.min](#math.min) | [array.from](#array.from) | [array.join](#array.join)
+--------------------------------------------------------------------------------------------------
+[array.slice](#array.slice) | [array.reverse](#array.reverse) | [array.includes](#array.includes)
+--------------------------------------------------------------------------------------------------
+[array.concat](#array.concat) |
+--------------------------------------------------------------------------------------------------
+[array.reduce](#array.reduce) |
+--------------------------------------------------------------------------------------------------
+
+
+
 # map 
 [on top](#on-top)
 
