@@ -1,14 +1,14 @@
 # on top
 
-[map](#map) | [filter](#filter) | [isArray](#isArray) | 
+[map](#map)           | [filter](#filter) | [isArray](#isArray) | [split](#split)
 --------------------------------------------------------------------------------------------------
-[math.min](#math.min) | [array.from](#array.from) | [array.join](#array.join)
+[math.min](#math.min) | [from](#from) | 
 --------------------------------------------------------------------------------------------------
-[array.slice](#array.slice) | [array.reverse](#array.reverse) | [array.includes](#array.includes)
+[slice](#slice)       | [reverse](#reverse) | 
 --------------------------------------------------------------------------------------------------
-[array.concat](#array.concat) |
+[concat](#oncat)      | [includes](#includes)
 --------------------------------------------------------------------------------------------------
-[array.reduce](#array.reduce) |
+[reduce](#reduce)     | [join](#join)
 --------------------------------------------------------------------------------------------------
 
 
@@ -69,7 +69,7 @@ console.log(Math.min(...array1));
 // Expected output: 1
 ```
 
-# array.from
+# from
 [on top](#on-top)
 ```
 console.log(Array.from('foo'));
@@ -80,7 +80,7 @@ console.log(Array.from([1, 2, 3], x => x + x));
 ```
 
 
-# array.join
+# join
 [on top](#on-top)
 
 ```
@@ -91,8 +91,16 @@ a.join(" + "); // "Vent + Pluie + Feu"
 a.join("");    // "VentPluieFeu"
 ```
 
-# array.slice
+# slice
 [on top](#on-top)
+
+
+Syntaxe :
+
+arr.slice()
+arr.slice(début)
+arr.slice(début, fin)
+
 
 ```
 var chaine = "Exemple";
@@ -101,7 +109,7 @@ var nouvelleChaine = chaine.slice(1, -1);
 console.log(nouvelleChaine); // Affiche "xempl"
 ```
 
-# array.reverse
+# reverse
 [on top](#on-top)
 
 ```
@@ -119,7 +127,7 @@ console.log('array1:', array1);
 ```
 
 
-# array.includes 
+# includes 
 [on top](#on-top)
 
 sert à verifier si une valeur es présente dans le tableau
@@ -134,7 +142,7 @@ sert à verifier si une valeur es présente dans le tableau
 ['a', 'b', 'c'].includes('c', 5);    // false
 ['a', 'b', 'c'].includes('c', -100); // true
 ```
-# Array.concat
+# concat
 [on top](#on-top)
 
 ```
@@ -148,11 +156,25 @@ console.log(array3);
 ```
 
 
-# array.reduce
-[on top](#on-top)
+# reduce
 ```
 [0, 1, 2, 3, 4].reduce(function(accumulateur, valeurCourante, index, array){
   return accumulateur + valeurCourante;
 });
+
+```
+
+# split 
+###### The split() method takes a pattern and divides a String into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array.
+### syntaxe
+
+split(separator)
+split(separator, limit)
+
+```
+const myString = "Hello World. How are you doing?";
+const splits = myString.split(" ", 3);
+
+console.log(splits); // [ "Hello", "World.", "How" ]
 
 ```
